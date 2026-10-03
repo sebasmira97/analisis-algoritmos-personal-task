@@ -175,7 +175,7 @@ Regla de lectura: si la pregunta es «¿está relacionado con…?», «¿cuál e
 
 ## 5. Algoritmos más famosos
 
-Los que hay que poder explicar en pizarrón, con cota y con la hipótesis que los hace correctos. Kruskal y Dijkstra ya aparecieron como greedy en [`algoritmos-greedy/README.md`](algoritmos-greedy/README.md); aquí se ven como **algoritmos de grafos**.
+Los que hay que poder explicar en pizarrón, con cota y con la hipótesis que los hace correctos. Kruskal y Dijkstra ya aparecieron como greedy en [`README-GREEDY.md`](README-GREEDY.md); aquí se ven como **algoritmos de grafos**.
 
 | Algoritmo | Pregunta | Hipótesis | Cota típica (lista + heap si aplica) |
 | --- | --- | --- | --- |
@@ -430,7 +430,7 @@ Suma de grados `3+3+5+3 = 14 = 2 · 7`. **Cuatro** vértices impares → no hay 
 2. Escriba el BFS del ejercicio 2 pero desde Gina. ¿Qué distancias obtiene? Relaciónelo con `k = 3`.
 3. Un pensum: *Cálculo I* → *Cálculo II* → *EDOs*; *Cálculo I* → *Álgebra lineal*; *Álgebra lineal* y *Cálculo II* → *Análisis de algoritmos*. Dibuje el DAG y dé **un** orden topológico. ¿Hay más de uno? ¿Qué ciclo rompería el semestre?
 4. Cinco barrios, tiempos no negativos en las calles. Calcule a mano Dijkstra desde el origen. Cambie un tiempo a negativo y explique por qué la misma regla greedy deja de ser legal.
-5. Kruskal a mano con 6 nodos (puede reutilizar el ejemplo de la [guía greedy, §3.5](algoritmos-greedy/README.md#35-árbol-de-recubrimiento-mínimo-kruskal)). Marque la primera arista que Union-Find **rechaza**.
+5. Kruskal a mano con 6 nodos (puede reutilizar el ejemplo de la [guía greedy, §3.5](README-GREEDY.md#35-árbol-de-recubrimiento-mínimo-kruskal)). Marque la primera arista que Union-Find **rechaza**.
 6. Demuestre que si hay 0 vértices de grado impar y el grafo (salvo aislados) es conexo, existe circuito euleriano. Escriba el contraejemplo de Königsberg como instancia de «4 impares».
 
 ---
@@ -443,7 +443,7 @@ Suma de grados `3+3+5+3 = 14 = 2 · 7`. **Cuatro** vértices impares → no hay 
 - Dasgupta, Papadimitriou, Vazirani. *Algorithms*. Euler, Dijkstra y MST con argumentos cortos.
 - Bondy y Murty, o Diestel. *Graph Theory*. Si se quiere el lado estructural (más allá de algoritmos).
 
-Greedy y MST/Dijkstra: [`algoritmos-greedy/README.md`](algoritmos-greedy/README.md). Complejidad y notación: el [README del curso](README.md).
+Greedy y MST/Dijkstra: [`README-GREEDY.md`](README-GREEDY.md). Complejidad y notación: el [README del curso](README-GREEDY.md).
 
 ---
 

@@ -2,7 +2,7 @@
 
 Material del curso (ITM). Greedy ya resolvió problemas con **subestructura óptima** cuando además había una **elección local segura** (vuelto COP, intervalos por hora de fin, mochila fraccionaria). Cuando esa elección no existe —mochila 0/1, monedas `{1, 3, 4}`, actividades con pesos— enumerar `2^n` combinaciones no escala. **Programación dinámica (DP)** es la familia que sigue siendo exacta: no se compromete a la primera; **recuerda** cada subproblema útil y lo combina.
 
-Curso: **Análisis de algoritmos · ITM · 2026-2**. Tarea: [`tareas/tarea4.md`](tareas/tarea4.md) (LeetCode: vuelto y partición 0/1). Greedy y el contraejemplo de la caja: [`algoritmos-greedy/README.md`](algoritmos-greedy/README.md). Grafos (Floyd–Warshall es DP): [`README-GRAFOS.md`](README-GRAFOS.md).
+Curso: **Análisis de algoritmos · ITM · 2026-2**. Tarea: [`tareas/tarea4.md`](tareas/tarea4.md) (LeetCode: vuelto y partición 0/1). Greedy y el contraejemplo de la caja: [`README-GREEDY.md`](README-GREEDY.md). Grafos (Floyd–Warshall es DP): [`README-GRAFOS.md`](README-GRAFOS.md).
 
 ---
 
@@ -271,7 +271,7 @@ Cada celda es una suma `O(1)`. Tiempo `Θ(n)`, memoria `Θ(n)` (o dos enteros: `
 
 ### Ejercicio 2 · El vuelto en el que greedy miente (`{1, 3, 4}`, monto 6)
 
-En la [guía greedy](algoritmos-greedy/README.md) el COP acierta. El laboratorio *Trampa* usa piezas 4, 3, 1 y vuelto 6: greedy entrega 3; el óptimo, 2. Aquí se **calcula** ese óptimo.
+En la [guía greedy](README-GREEDY.md) el COP acierta. El laboratorio *Trampa* usa piezas 4, 3, 1 y vuelto 6: greedy entrega 3; el óptimo, 2. Aquí se **calcula** ese óptimo.
 
 **Enunciado.** Denominaciones `C = {1, 3, 4}` (hay infinitas de cada una). Armar el monto **6** con el **mínimo** número de piezas.
 
@@ -497,7 +497,7 @@ dp[i] = max( w_i + dp[p(i)],  dp[i − 1] )
 - Wagner, Fischer. *The string-to-string correction problem*, 1974.
 - Needleman, Wunsch. *A general method applicable to the search for similarities in the amino acid sequence of two proteins*, 1970.
 
-Greedy (cuándo **no** hace falta DP, y los contraejemplos que sí): [`algoritmos-greedy/README.md`](algoritmos-greedy/README.md). Caminos como DP: Floyd y Bellman–Ford en [`README-GRAFOS.md`](README-GRAFOS.md). Complejidad y notación: el [README del curso](README.md).
+Greedy (cuándo **no** hace falta DP, y los contraejemplos que sí): [`README-GREEDY.md`](README-GREEDY.md). Caminos como DP: Floyd y Bellman–Ford en [`README-GRAFOS.md`](README-GRAFOS.md). Complejidad y notación: el [README del curso](README-GREEDY.md).
 
 ---
 

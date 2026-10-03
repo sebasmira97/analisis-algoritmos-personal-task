@@ -12,7 +12,7 @@
 
 Un *push* posterior al cierre no cuenta. Sin captura de **Accepted**, el ejercicio no se considera entregado.
 
-En el semestre se vieron **ordenar**, **grafos**, **programación dinámica** y **greedy**. Este taller pide un problema **Medium** de cada una, más **backtracking** (enumerar con retractarse: lo que greedy no hace). Material de apoyo: [`README-ORDENAMIENTO.md`](../README-ORDENAMIENTO.md), [`README-GRAFOS.md`](../README-GRAFOS.md), [`README-DP.md`](../README-DP.md), [`algoritmos-greedy/README.md`](../algoritmos-greedy/README.md).
+En el semestre se vieron **ordenar**, **grafos**, **programación dinámica** y **greedy**. Este taller pide un problema **Medium** de cada una, más **backtracking** (enumerar con retractarse: lo que greedy no hace). Material de apoyo: [`README-ORDENAMIENTO.md`](README-ORDENAMIENTO.md), [`README-GRAFOS.md`](README-GRAFOS.md), [`README-DP.md`](README-DP.md), [`README-GREEDY.md`](README-GREEDY.md).
 
 Los cinco son distintos de las tareas 1 a 4. No reenvíe Lemonade Change, Assign Cookies, Merge Sorted Array, Sort Colors, Number of Provinces, Course Schedule, Coin Change ni Partition Equal Subset Sum.
 
